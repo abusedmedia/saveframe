@@ -1,7 +1,7 @@
 {
   "name": "saveframe",
   "description": "Save frames to disk out of a canvas element from browser",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "author": {
     "name": "abusedmedia",
     "email": "hello@fabiofranchino.com"
