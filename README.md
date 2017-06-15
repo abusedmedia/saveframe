@@ -53,6 +53,12 @@ Here a quick sample:
 ```
 
 The PNG size will match the canvas size.
+You can then create a video using the image sequence, Quicktime of other similar tools do this job.
+
+You can watch e quick test here with a [WelGL canvas](https://codepen.io/abusedmedia/pen/rwWjgp):
+
+[![](0.png)](https://www.youtube.com/watch?v=PON3_FdU1Kk)
+
 
 
 ### Run the client
