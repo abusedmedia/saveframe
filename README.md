@@ -42,7 +42,7 @@ Here a quick sample:
 			// draw something on your canvas
 			var ctx = canvas.getContext('2d')
 			ctx.fillStyle = '#f00'
-          	ctx.fillRect(20, 20, 100, 100)
+			ctx.fillRect(20, 20, 100, 100)
 			
 			// save the frame to disk (into 'tmp/frame-0.png')
 			SaveFrame.save()
@@ -55,10 +55,6 @@ Here a quick sample:
 The PNG size will match the canvas size.
 You can then create a video using the image sequence, Quicktime of other similar tools do this job.
 
-You can watch e quick test here with a [WelGL canvas](https://codepen.io/abusedmedia/pen/rwWjgp):
-
-[![](0.png)](https://www.youtube.com/watch?v=PON3_FdU1Kk)
-
 
 
 ### Run the client
@@ -66,4 +62,9 @@ You can watch e quick test here with a [WelGL canvas](https://codepen.io/abusedm
 To run the client file with the browser use a local webserver of your choice (http-server, browser-sync, python SimpleHTTPServer, whatever...).
 
 
+---
+
+You can watch e quick test here with a [WelGL canvas](https://codepen.io/abusedmedia/pen/rwWjgp):
+
+[![](0.png)](https://www.youtube.com/watch?v=PON3_FdU1Kk)
 
