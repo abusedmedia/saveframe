@@ -12,7 +12,9 @@
 
 The server is a Node.js script, you can run it with:
 
-	node server.js
+	node node_modules/saveframe/server.js <foldername>
+
+where <foldername> is the folder where to put the png files (must be available)
 
 
 ### Configure the client
@@ -38,6 +40,9 @@ Here a quick sample:
 			SaveFrame.init(canvas)
 
 			// draw something on your canvas
+			var ctx = canvas.getContext('2d')
+			ctx.fillStyle = '#f00'
+          	ctx.fillRect(20, 20, 100, 100)
 			
 			// save the frame to disk (into 'tmp/frame-0.png')
 			SaveFrame.save()
@@ -50,7 +55,7 @@ Here a quick sample:
 
 ### Run the client
 
-To run the client file with the browser use a local webserver of your choice (http-server, browser-sync, python SimpleHTTPServer).
+To run the client file with the browser use a local webserver of your choice (http-server, browser-sync, python SimpleHTTPServer, whatever...).
 
 
 
