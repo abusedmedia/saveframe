@@ -1,26 +1,25 @@
 # WebAppSaveFrames
 
+[![npm version](https://badge.fury.io/js/saveframe.svg)](https://badge.fury.io/js/saveframe)
+
 
 ### Installation
 
-	npm install
+	npm install saveframe
 
 
 ### Run the server
 
-The server is a simple Node.js script that run an Express application with a socket connection:
+The server is a Node.js script, you can run it with:
 
 	node server.js
 
 
 ### Configure the client
 
-- Include the 'client.js' file
-- Init the client connector with window.initSaveFrame(canvas) passing the 'canvas' element you want to render
-- Call within the main loop function the method ```window.saveFrame()``` to save each frame, you may put it typically at the end of the drawing routine.
-- The .png frames are saved in a ```tmp``` folder within the script folder
+Include the required libraries and use the proper method to interact with the server.
 
-Here a tiny sample
+Here a quick sample:
 
 ```html
 <html>
@@ -34,9 +33,13 @@ Here a tiny sample
 
 		<script type="text/javascript">
 			var canvas = document.querySelector('canvas')
+			
+			// specify the canvas you want to render to disk
 			SaveFrame.init(canvas)
 
 			// draw something on your canvas
+			
+			// save the frame to disk (into 'tmp/frame-0.png')
 			SaveFrame.save()
 		</script>
 	</body>
@@ -51,10 +54,3 @@ To run the client file with the browser use a local webserver of your choice (ht
 
 
 
-## API
-
-### window.initSaveFrame
-
-Pass the following arguments:
-
-- ```canvas``` element ( e.g. with document.querySelector('canvas') or $('canvas')[0] )
