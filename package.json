@@ -1,6 +1,11 @@
 {
   "name": "saveframe",
+  "description": "Save frames to disk out of a canvas element from browser",
   "version": "0.0.1",
+  "author": {
+    "name": "abusedmedia",
+    "email": "hello@fabiofranchino.com"
+  },
   "dependencies": {
     "express": "^4.15.3",
     "jquery": "^3.2.1",
