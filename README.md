@@ -1,5 +1,7 @@
 # SaveFrame
 
+Render an in-browser canvas application to png sequence file to disk using a Node.js script.
+
 [![npm version](https://badge.fury.io/js/saveframe.svg)](https://badge.fury.io/js/saveframe)
 
 
@@ -64,7 +66,7 @@ To run the client file with the browser use a local webserver of your choice (ht
 
 ---
 
-You can watch e quick test here with a [WelGL canvas](https://codepen.io/abusedmedia/pen/rwWjgp):
+You can watch e quick test here with this [WelGL canvas](https://codepen.io/abusedmedia/pen/rwWjgp):
 
 [![](0.png)](https://www.youtube.com/watch?v=PON3_FdU1Kk)
 
