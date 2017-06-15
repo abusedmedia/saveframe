@@ -1,9 +1,9 @@
-# WebAppSaveFrames
+# SaveFrame
 
 [![npm version](https://badge.fury.io/js/saveframe.svg)](https://badge.fury.io/js/saveframe)
 
 
-### Installation
+### Install
 
 	npm install saveframe
 
@@ -51,6 +51,8 @@ Here a quick sample:
 </html>
 
 ```
+
+The PNG size will match the canvas size.
 
 
 ### Run the client
