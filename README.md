@@ -1,6 +1,6 @@
 # SaveFrame
 
-Render an in-browser canvas application to png sequence file to disk using a Node.js script.
+Render an in-browser canvas application to png sequence file saved to disk using a Node.js script.
 
 [![npm version](https://badge.fury.io/js/saveframe.svg)](https://badge.fury.io/js/saveframe)
 
@@ -16,7 +16,7 @@ The server is a Node.js script, you can run it with:
 
 	node node_modules/saveframe/server.js <foldername>
 
-where <foldername> is the folder where to put the png files (must be available)
+where ```<foldername>``` is the folder where to put the png files (must be available)
 
 
 ### Configure the client
