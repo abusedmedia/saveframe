@@ -16,7 +16,7 @@ The server is a Node.js script, you can run it with:
 
 	node node_modules/saveframe/server.js <foldername>
 
-where ```<foldername>``` is the folder where to put the png files (must be available)
+where ```<foldername>``` is the folder where to put the png files **(must be present and writable)**
 
 
 ### Configure the client

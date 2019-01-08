@@ -1,4 +1,4 @@
-;(function ($, io) {
+;(function (io) {
   window.SaveFrame = {}
   var url = 'http://localhost:2222'
   var canvas
@@ -23,4 +23,4 @@
 
   window.SaveFrame.init = conf
   window.SaveFrame.save = save
-})(window.jQuery, window.io)
+})(window.io)
